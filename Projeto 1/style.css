@@ -1,0 +1,158 @@
+body{
+   background-image: url(./img/gamer.jpeg);
+}
+
+
+.container{
+   display: flex;
+}
+
+#murilo h1{
+   margin-top: 90px;
+   color: white;
+   margin-left: 50px;
+}
+
+#murilo img{
+    height: 200px;
+    border-radius: 30%;
+    padding: 20px;
+    box-shadow: 15px 15px 15px ;
+
+    
+ }
+
+ #murilo{
+   margin-top: 60px;
+   border-radius:10% ;
+   margin-left: 19%;
+   margin-right: 19%;
+   text-align: center;
+    background-color: transparent;
+    height: 290px;
+    box-shadow: 15px 15px 15px 15px ;
+    backdrop-filter: blur(9px) ;
+    
+   
+
+ }
+
+ #insta{
+    text-align: center;
+    background-color:transparent;
+    border-radius: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 15px 15px 15px 15px;
+    margin-top: 40px;
+    backdrop-filter: blur(9px) ;
+    overflow: hidden;
+    
+ }
+
+ #insta img {
+
+    height: 90px;
+    border-radius: 300%;
+    margin-top: 20px;
+    
+ }
+ 
+
+
+ #insta h1{
+    color: white;
+    height: 100px;
+ }
+
+
+ #tiktok img{
+   height: 90px;
+   border-radius: 300%;
+   margin-top: 20px;
+
+ }   
+
+ #tiktok{
+   text-align: center;
+    background-color:transparent;
+    border-radius: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 15px 15px 15px 15px;
+    margin-top: 40px;
+    backdrop-filter: blur(9px) ; 
+ }
+
+ #tiktok h1{
+   color: white;
+   height: 100px;
+ }
+
+ #github{
+   text-align: center;
+    background-color:transparent;
+    border-radius: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 15px 15px 15px 15px;
+    margin-top: 40px;
+    backdrop-filter: blur(9px) ;
+    height: 200px;
+
+ }
+
+ #github img{
+   height: 90px;
+    border-radius: 300%;
+    margin-top: 20px;
+
+ }
+
+ #github h1{
+   color: white;
+ }
+
+
+ .escrita{
+   background-color: transparent;
+   backdrop-filter: blur(9px) ;
+   height: 90px;
+   border-radius: 20%;
+   
+   margin-left: 20%;
+   margin-right: 20% ;
+   text-align: center;
+   box-shadow: 15px 15px 15px 15px black;
+
+
+ }
+
+ .escrita h1{
+  color: white;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+
+ section :hover{
+   transform: translate(-3px, -3px);
+    transition:  0.2s ;
+    border: 2px solid (255, 255, 255 , 06);
+    box-shadow: 10px 10px 10px(248, 10, 10) 0,6;
+ }
+
+ #murilo:hover{
+   transform: translate(-3px, -3px);
+    transition:  0.2s ;
+    border: 2px solid  (255, 255, 255 , 06);
+    box-shadow: 10px 10px 10px  0,6;
+ }
+
+ .escrita:hover{
+   transform: translate(-3px, -3px);
+    transition:  0.2s ;
+    border: 2px solid  (255, 255, 255 , 06);
+    box-shadow: 10px 10px 10px  0,6;
+
+ }
